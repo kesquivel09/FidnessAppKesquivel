@@ -23,7 +23,7 @@ public class MenuPrincipalCliente extends javax.swing.JFrame {
         initComponents();
               if (Usuario.idUsuarioActual != null && 
         !Usuario.idUsuarioActual.isEmpty()) {
-        IdCliente.setText("ID: " + Usuario.idUsuarioActual);
+        IdCliente.setText("ID Cliente: " + Usuario.idUsuarioActual);
     }
     }
 
