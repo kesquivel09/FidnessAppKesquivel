@@ -23,7 +23,7 @@ public class MenuPrincipalEmpleado extends javax.swing.JFrame {
         initComponents();
         if (Usuario.idUsuarioActual != null && 
         !Usuario.idUsuarioActual.isEmpty()) {
-        idEMPLEADOLABEL.setText("ID: " + Usuario.idUsuarioActual);
+        idEMPLEADOLABEL.setText("ID Empleado: " + Usuario.idUsuarioActual);
     }
     }
 
